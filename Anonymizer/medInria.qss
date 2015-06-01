@@ -15,48 +15,35 @@
 /*******************************************************************************
     COLOR
  *******************************************************************************/
-$HUE        = 228;
-$SATURATION = 255;
+ $HUE        = 220;
+ $SATURATION = 64.8;
 
-/*$GREY00     = hsv($HUE,$SATURATION,25);
-$GREY01     = hsv($HUE,$SATURATION,48);
-$GREY02     = hsv($HUE,$SATURATION,56);
-$GREY03     = hsv($HUE,$SATURATION,60);
-$GREY04     = hsv($HUE,$SATURATION,64);
-$GREY05     = hsv($HUE,$SATURATION,80);
-$GREY06     = hsv($HUE,$SATURATION,96);
-$GREY07     = hsv($HUE,$SATURATION,112);
-$GREY08     = hsv($HUE,$SATURATION,128);
-$GREY09     = hsv($HUE,$SATURATION,144);
-$GREY10     = hsv($HUE,$SATURATION,160);*/
+ $GREY10     = hsv($HUE,$SATURATION,0);
+ $GREY09     = hsv($HUE,$SATURATION,10);
+ $GREY08     = hsv($HUE,$SATURATION,20);
+ $GREY07     = hsv($HUE,$SATURATION,30);
+ $GREY06     = hsv($HUE,$SATURATION,40);
+ $GREY05     = hsv($HUE,$SATURATION,50);
+ $GREY04     = hsv($HUE,$SATURATION,60);
+ $GREY03     = hsv($HUE,$SATURATION,70);
+ $GREY02     = hsv($HUE,$SATURATION,80);
+ $GREY01     = hsv($HUE,$SATURATION,90);
+ $GREY00     = hsv($HUE,$SATURATION,120);
 
-$GREY10     = hsv($HUE,$SATURATION,0);
-$GREY09     = hsv($HUE,$SATURATION,10);
-$GREY08     = hsv($HUE,$SATURATION,20);
-$GREY07     = hsv($HUE,$SATURATION,30);
-$GREY06     = hsv($HUE,$SATURATION,40);
-$GREY05     = hsv($HUE,$SATURATION,50);
-$GREY04     = hsv($HUE,$SATURATION,60);
-$GREY03     = hsv($HUE,$SATURATION,70);
-$GREY02     = hsv($HUE,$SATURATION,80);
-$GREY01     = hsv($HUE,$SATURATION,90);
-$GREY00     = hsv($HUE,$SATURATION,120);
+ $GREY11            = #e3ecf1; /*texts*/
+ $HIGHLIGHT_COLOR   = #ED6639; /*highlight*/
+ $DARKGRAY          = #2a416f; /*toolbox headers*/
+ $MEDINRIA_DARKGRAY = #39548a; /*toolbox headers*/
 
-$GREY11     = #C0C0C0;/*hsv($HUE,$SATURATION,192);*/
-
-$GREEN      = #64FF32;
-$RED        = #FF3333;
-$YELLOW     = #FFFF99;
-$DARKGRAY   = #6D6E6F;
-
-$HIGHLIGHT_COLOR = #FF8833;
-
+ $ORANGE     = #fc875f; /*only in tooltip background*/
+ $GREEN      = #64FF32; /*only in success progress bar*/
+ $RED        = #FF3333; /*only in failure progress bar*/
 /*******************************************************************************
     BACKGROUND
  *******************************************************************************/
 $WIDGET_BACKGROUND                      = $GREY01;
 
-$TOOLTIP_BACKGROUND                     = $YELLOW;
+$TOOLTIP_BACKGROUND                     = $ORANGE;
 
 $LIST_BACKGROUND                        = $GREY02;
 $ALT_LIST_BACKGROUND                    = $GREY03;
